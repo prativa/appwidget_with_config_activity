@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetRootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="155dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/widgetNewsCategoryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#E7EBE7"
+        android:padding="3dp"
+        android:text="Motivation"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/widgetNewsSummaryText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/widgetNewsCategoryTitle"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#E7EBE7"
+        android:text="If you want to build a ship, don&apos;t drum up people together to collect wood and don&apos;t assign them tasks and work, but rather teach them to long for the endless immensity of the sea."
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>
